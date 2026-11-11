@@ -1,4 +1,4 @@
-# EasyWei · 卫戍协议图鉴https://yulvy.github.io/EasyWei/
+# EasyWei · ”卫戍协议：规程“图鉴https://yulvy.github.io/EasyWei/
 一个双端可用的由github代理的网页https://yulvy.github.io/EasyWei/，复制就能在浏览器打开，功能不全，也没有识别功能，只是为了拯救我这种金鱼记忆无法记住所有盟约的人orz
 
 > 单文件、离线可用的《明日方舟》卫戍协议资料站：干员盟约、交叉关系、叠层上限、敌人轮选 / 赛季图鉴与装备库。
