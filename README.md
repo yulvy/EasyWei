@@ -1,15 +1,14 @@
-# EasyWei · 卫戍协议图鉴
+# EasyWei · 卫戍协议图鉴https://yulvy.github.io/EasyWei/
+一个双端可用的由github代理的网页https://yulvy.github.io/EasyWei/，复制就能在浏览器打开，功能不全，也没有识别功能，只是为了拯救我这种金鱼记忆无法记住所有盟约的人orz
 
 > 单文件、离线可用的《明日方舟》卫戍协议资料站：干员盟约、交叉关系、叠层上限、敌人轮选 / 赛季图鉴与装备库。
 
 这是一个粉丝向资料整理项目，不是官方 Wiki。整个站点只有一个 HTML 文件，图片、数据、样式和脚本全部内嵌，不需要后端、数据库或构建工具。
 
-<!-- 部署后把截图放到 docs/preview.png，再取消下一行注释 -->
-<!-- ![页面预览](docs/preview.png) -->
 
 ## 功能
 
-- **干员图鉴**：143 名干员（含 2 名隐藏干员），可按核心盟约、小盟约、等阶、触发时机和收录类型筛选。
+- **干员图鉴**：143 名干员，可按核心盟约、小盟约、等阶、触发时机和收录类型筛选。
 - **关系表**：10 个核心盟约 × 8 个交叉小盟约，包含 9 名双小盟约桥梁干员、覆盖率和桥梁索引。
 - **叠层上限**：大盟约 / 小盟约 × I–VI 阶，共 149 条单回合叠层记录。
 - **原图存档**：13 张关系图与叠层表集中存放，点击可查看大图。
@@ -19,52 +18,6 @@
 - **装备库**：70 件装备，按 T1–T6 分组，列出基础 / 进阶效果、售价和描述。
 - **响应式**：桌面端与手机端均可使用。
 
-## 快速开始
-
-### 直接打开
-
-双击 `stronghold-wiki.html` 即可。页面不依赖外部图片或脚本，离线也能查看主体内容。
-
-### 本地服务器（推荐）
-
-```bash
-# 在文件所在目录执行
-python -m http.server 8000
-
-# 浏览器访问
-# http://localhost:8000/stronghold-wiki.html
-```
-
-如果希望根路径直接打开，把文件复制为 `index.html`：
-
-```bash
-cp stronghold-wiki.html index.html
-```
-
-## 部署
-
-### Netlify Drop（最快）
-
-1. 新建一个只放站点文件的文件夹，例如 `publish/`。
-2. 把 `stronghold-wiki.html` 复制为 `publish/index.html`。
-3. 打开 <https://app.netlify.com/drop>，把 `publish/` 拖进去。
-4. 得到 `https://随机名字.netlify.app`，把链接发给别人。
-
-注意：只上传 `publish/`，不要把 `.test/` 一起上传。
-
-### GitHub Pages
-
-1. 新建 public 仓库，例如 `stronghold-wiki`。
-2. 上传 `index.html` 到仓库根目录。
-3. 进入 `Settings → Pages`：
-   - Source：`Deploy from a branch`
-   - Branch：`main`
-   - 目录：`/ (root)`
-4. 等待 1–2 分钟，访问：
-
-```text
-https://你的用户名.github.io/stronghold-wiki/
-```
 
 ## 数据来源与版权
 
